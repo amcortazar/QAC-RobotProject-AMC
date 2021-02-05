@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary    
-
+Documentation    Cette suite de tests est pour expliquer la synchronization
 
 
 *** Test Cases ***
@@ -57,5 +57,7 @@ loginTest4
 
 
 
-
+loginTest5
+    Log To Console    Hello    
+    [Documentation]    Ceci est un simple test
 
